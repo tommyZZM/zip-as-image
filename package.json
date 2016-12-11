@@ -1,0 +1,33 @@
+{
+  "name": "zip-as-image",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tommyZZM/zip-file-to-image.git"
+  },
+  "bin": {
+    "zip-as-image": "./bin/zip-as-image.js"
+  },
+  "author": "tommyZZM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tommyZZM/zip-file-to-image/issues"
+  },
+  "homepage": "https://github.com/tommyZZM/zip-file-to-image#readme",
+  "dependencies": {
+    "buffer-indexof": "^1.1.0",
+    "buffer-to-vinyl": "^1.1.0",
+    "gulp-unzip": "^0.2.0",
+    "gulp-zip": "^3.2.0",
+    "image-type": "^2.1.0",
+    "through2": "^2.0.3",
+    "vinyl-fs": "^2.4.4",
+    "yargs": "^6.5.0",
+    "yazl": "^2.4.2"
+  }
+}
